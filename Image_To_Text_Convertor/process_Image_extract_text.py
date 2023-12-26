@@ -27,4 +27,5 @@ class ExtractTheTextFromImage():
 def processTheImage(image=config.SAVE_IMAGE_PATH):
     piet = ExtractTheTextFromImage(image)
     text = piet.loadTheImageProcessIt()
-    clipboard.copy(text)  # now the clipboard content will be string "abc"
+    clipboard.copy(text)
+
